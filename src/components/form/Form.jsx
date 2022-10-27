@@ -18,10 +18,16 @@ const Form = ({setTodos, todos}) => {
     };
     
     const addNewTodo = () => {
-        setTodos([...todos, {id: todos.length+1, body:newContext, title:newTodo, isDone:false}]);
+        if (newTodo !== '' && newContext !== ''){
+             setTodos([...todos, {id: todos.length+1, body:newContext, title:newTodo, isDone:false}]);
        
-        setNewTodo(newTodo = '')
-        setNewContext(newContext= '')
+            setNewTodo(newTodo = '')
+            setNewContext(newContext= '')
+        } else {
+            alert('Please complete all fields!')
+        }
+        
+       
       };
 
 

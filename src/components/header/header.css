@@ -1,0 +1,29 @@
+.container {
+  align-items: center;
+  border: 1px solid #ddd;
+  border-top-color: rgb(221, 221, 221);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-right-color: rgb(221, 221, 221);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-bottom-color: rgb(221, 221, 221);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: rgb(221, 221, 221);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  padding: 0 20px;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+}

@@ -1,13 +1,9 @@
-import './style.css'
-import Header from '../header/Header.jsx'
-import Form from '../form/Form.js'
-const Layout = () => {
-    return (
-    <div className="layout">
-      <Header />
-      <Form />
+import './layout.css'
+
+const Layout = (props) => {
+   return <div className='layout'>
+        {props.children}
     </div>
-    )
 }
 
-export default Layout
+export default Layout;

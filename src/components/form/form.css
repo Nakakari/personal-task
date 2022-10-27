@@ -3,14 +3,27 @@
   align-items: center;
   display: flex;
   gap: 20px;
+  row-gap: 20px;
+  column-gap: 20px;
 }
-
 .add-form {
   background-color: #eee;
   border-radius: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
   justify-content: space-between;
   margin: 0 auto;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
   padding: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
 }
 .form-label {
   font-size: 16px;
@@ -48,41 +61,31 @@
   padding-left: 12px;
   width: 240px;
 }
-input {
-  writing-mode: horizontal-tb !important;
-  /* font-style: ;
-  font-variant-ligatures: ;
-  font-variant-caps: ;
-  font-variant-numeric: ;
-  font-variant-east-asian: ;
-  font-weight: ;
-  font-stretch: ;
-  font-size: ;
-  font-family: ; */
-  text-rendering: auto;
-  color: fieldtext;
-  letter-spacing: normal;
-  word-spacing: normal;
-  line-height: normal;
-  text-transform: none;
-  text-indent: 0px;
-  text-shadow: none;
-  display: inline-block;
-  text-align: start;
-  appearance: auto;
-  -webkit-rtl-ordering: logical;
-  cursor: text;
-  background-color: field;
-  margin: 0em;
-  margin-top: 0em;
-  margin-right: 0em;
-  margin-bottom: 0em;
-  margin-left: 0em;
-}
 .add-button {
   background-color: teal;
   border: none;
+  border-top-color: initial;
+  border-top-style: none;
+  border-top-width: initial;
+  border-right-color: initial;
+  border-right-style: none;
+  border-right-width: initial;
+  border-bottom-color: initial;
+  border-bottom-style: none;
+  border-bottom-width: initial;
+  border-left-color: initial;
+  border-left-style: none;
+  border-left-width: initial;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
   border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
   color: #fff;
   font-weight: 700;
   height: 40px;

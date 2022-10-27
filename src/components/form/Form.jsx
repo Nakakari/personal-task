@@ -25,6 +25,7 @@ const Form = ({setTodos, todos}) => {
             setNewContext(newContext= '')
         } else {
             alert('Please complete all fields!')
+            // Haloo
         }
         
        
